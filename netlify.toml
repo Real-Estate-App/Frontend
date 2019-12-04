@@ -1,4 +1,4 @@
 [build]
-base = "Frontend/"
+base = "realestate"
 publish = "realestate/build"
-command = "yarn build" 
+command = "npm run build" 
