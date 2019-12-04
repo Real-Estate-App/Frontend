@@ -1,0 +1,4 @@
+[build]
+base = "realestate/"
+publish = "realestate/build"
+command = "yarn build" 
