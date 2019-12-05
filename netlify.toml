@@ -1,4 +1,4 @@
 [build]
 base = "realestate/"
-publish = "Frontend/realestate/build"
+publish = "build"
 command = "yarn build" 
