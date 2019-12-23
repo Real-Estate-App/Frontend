@@ -6,7 +6,7 @@ import { Provider } from "react-redux";
 import store from "./store/store";
 
 // components
-import Navbar from './components/Navbar'
+import Navbar from './components/layout/Navbar'
 
 // react alert boilerplate
 import { Provider as AlertProvider, positions } from "react-alert";
