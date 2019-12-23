@@ -24,19 +24,19 @@ class NavBar extends Component {
                             </div>
                             <div className="col-md-3">
                                 <div className="social text-right">
-                                    <a href="https://twitter.com/">
+                                    <a href="https://twitter.com/" rel="noopener noreferrer" target="_blank">
                                         <i className="fab fa-twitter"></i>
                                     </a>
-                                    <a href="https://www.facebook.com/">
+                                    <a href="https://www.facebook.com/" rel="noopener noreferrer" target='_blank'>
                                         <i className="fab fa-facebook"></i>
                                     </a>
-                                    <a href="https://www.linkedin.com/">
+                                    <a href="https://www.linkedin.com/" rel="noopener noreferrer" target='_blank'>
                                         <i className="fab fa-linkedin"></i>
                                     </a>
-                                    <a href="https://www.instagram.com/">
+                                    <a href="https://www.instagram.com/" rel="noopener noreferrer" target='_blank'>
                                         <i className="fab fa-instagram"></i>
                                     </a>
-                                    <a href="https://www.pinterest.com/">
+                                    <a href="https://www.pinterest.com/" rel="noopener noreferrer" target='_blank'>
                                         <i className="fab fa-pinterest"></i>
                                     </a>
                                 </div>
