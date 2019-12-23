@@ -6,7 +6,8 @@ import { Provider } from "react-redux";
 import store from "./store/store";
 
 // components
-import Navbar from './components/layout/Navbar'
+import Navbar from './components/layout/Navbar';
+import Footer from './components/layout/Footer';
 
 // react alert boilerplate
 import { Provider as AlertProvider, positions } from "react-alert";
@@ -32,6 +33,7 @@ class App extends Component {
               <div className="container">
                 <Switch>{/* add routes */}</Switch>
               </div>
+              <Footer />
             </Fragment>
           </Router>
         </AlertProvider>
