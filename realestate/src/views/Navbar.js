@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 // import PropTypes from 'prop-types';
-import Logo from '../../images/logo/logo.png';
+import Logo from '../images/logo/logo.png';
 import { connect } from 'react-redux';
 
 class NavBar extends Component {
