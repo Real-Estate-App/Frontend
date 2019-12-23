@@ -6,6 +6,7 @@ import { Provider } from "react-redux";
 import store from "./store/store";
 
 // components
+import Navbar from './components/Navbar'
 
 // react alert boilerplate
 import { Provider as AlertProvider, positions } from "react-alert";
@@ -27,8 +28,7 @@ class App extends Component {
         <AlertProvider template={AlertTemplate} {...alertOptions}>
           <Router>
             <Fragment>
-              {/* add navbar and alerts here */}
-              <h1>Real Estate App</h1>
+              <Navbar />
               <div className="container">
                 <Switch>{/* add routes */}</Switch>
               </div>
