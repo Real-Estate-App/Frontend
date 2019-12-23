@@ -8,10 +8,12 @@ class Listings extends Component {
             <section className='py-5' id='listings'>
                 <div className='container'>
                     <h3 className='text-center mb-3'> Lastest Listings</h3>
-                    {/* latest three listings */}
-                    <Listing />
-                    <Listing />
-                    <Listing />
+                    <div className='row'>
+                        {/* latest three listings */}
+                        <Listing />
+                        <Listing />
+                        <Listing />
+                    </div>
                 </div>
             </section>
         );
