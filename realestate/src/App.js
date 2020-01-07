@@ -6,11 +6,12 @@ import { Provider } from "react-redux";
 import store from "./store/store";
 
 // components
-import { Navbar, Home, About, Footer, Login, Register} from './views';
+import { Navbar, Home, About, Footer, Login, Register, Listings } from './views';
 
 // react alert boilerplate
 import { Provider as AlertProvider, positions } from "react-alert";
 import AlertTemplate from "react-alert-template-basic";
+import Listing from "./components/listings/Listing";
 
 const alertOptions = {
   timeout: 3000,
@@ -34,6 +35,7 @@ class App extends Component {
                 <Route path='/about' render={About} />
                 <Route path='/login' component={Login} />
                 <Route path='/register' component={Register} />
+                <Route path='/listings' component={Listings} />
               </Switch>
               <Footer />
             </Fragment>
