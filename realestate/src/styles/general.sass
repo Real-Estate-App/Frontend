@@ -15,6 +15,26 @@
     background-color: #30caa0 !important
     border-color: #30caa0 !important
 
-#bc
+#bc, .pagination
+    justify-content: center
     a
         color: $blue !important
+    .active
+        a 
+            color: white !important
+            background-color: $blue !important
+            border-color: $blue !important
+
+#showcase-inner
+    background: url(../images/site/building.jpg) no-repeat top center fixed
+    position: relative
+    background-size: cover
+    overflow: hidden
+    min-height: 300px   
+    &::before
+        @include overlay($lightgreen, 0.8, 100%)
+    @media (max-width: 576px)
+        background-size: 150% 100vh
+
+img
+    width: 100%

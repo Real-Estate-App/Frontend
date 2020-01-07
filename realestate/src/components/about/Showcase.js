@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Showcase() {
     return (
-        <section id="about-showcase" className="py-5 text-white">
+        <section id="showcase-inner" className="py-5 text-white">
             <div className="container">
                 <div className="row text-center">
                     <div className="col-md-12">

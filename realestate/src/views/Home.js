@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <Fragment>
             <Showcase />
-            <Listings />
+            <Listings header={true} />
             <Services />
         </Fragment>
     );
