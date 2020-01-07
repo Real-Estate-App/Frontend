@@ -11,7 +11,7 @@ class NavBar extends Component {
         return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
                 <div className="container">
-                    <Link className="navbar-brand">
+                    <Link className="navbar-brand" to='/'>
                         <img src={Logo} className="logo" alt="" />
                     </Link>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">

@@ -8,7 +8,7 @@ export default function Footer() {
                     <div className="row">
                         <div className='col-lg-3'>
                             Copyright &copy;
-                            <span class="year"> 2019 BT Real Estate</span>
+                            <span className="year"> 2019 BT Real Estate</span>
                         </div>
                         <div className="col-lg-3">
                             <i className="fas fa-phone"></i>
