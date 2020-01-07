@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
+import Listings from '../components/listings/Listings';
 
-export default function Listings() {
+export default function FeatureListings() {
     return (
         <Fragment>
             <section id="bc" class="mt-3">
@@ -20,7 +21,7 @@ export default function Listings() {
             <section id="listings" class="py-4">
                 <div class="container">
                     <div class="row">
-
+                        <Listings />
                     </div>
 
                     <div class="row">

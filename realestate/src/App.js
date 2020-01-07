@@ -11,7 +11,6 @@ import { Navbar, Home, About, Footer, Login, Register, Listings } from './views'
 // react alert boilerplate
 import { Provider as AlertProvider, positions } from "react-alert";
 import AlertTemplate from "react-alert-template-basic";
-import Listing from "./components/listings/Listing";
 
 const alertOptions = {
   timeout: 3000,
