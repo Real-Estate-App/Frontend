@@ -6,6 +6,8 @@
     min-height: 300px   
     &::before
         @include overlay($lightgreen, 0.8, 100%)
+    @media (max-width: 576px)
+        background-size: 150% 100vh
 
 #aboutImg
     width: 100%

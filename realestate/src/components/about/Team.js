@@ -1,7 +1,6 @@
 import React from 'react';
 
 // later convert this to a dynamic component that renders based on data from server
-import Kyle from '../../images/realtors/kyle.jpg'
 import Mark from '../../images/realtors/mark.jpg'
 import Jenny from '../../images/realtors/jenny.jpg'
 import TeamMember from './TeamMember';
